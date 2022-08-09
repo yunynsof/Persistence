@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:ResponseJOSM xmlns:tns="http://www.tigo.com.hn/ResponseJOSM"
+	xmlns:tns9="http://www.tigo.com.hn/persistence/Configuration/V1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tigo.com.hn/ResponseJOSM ResponseJOSM.xsd ">
+	<tns:Configurations>
+		<tns:configExpiration>0</tns:configExpiration>
+		<tns:configurationType>
+			<tns9:providerUrl>127.0.0.1:4201</tns9:providerUrl>
+			<tns9:initialContextFactory>org.apache.openejb.client.LocalInitialContextFactory</tns9:initialContextFactory>
+			 <tns9:errorCodeList>
+                <tns9:errorCode>
+                    <tns9:key>ORA-00001</tns9:key>
+                    <tns9:value>Duplicate value on table %s. </tns9:value>
+                </tns9:errorCode>
+            </tns9:errorCodeList>
+		</tns:configurationType>
+	</tns:Configurations>
+	<tns:status>
+		<tns:status>0</tns:status>
+		<tns:code>0</tns:code>
+	</tns:status>
+</tns:ResponseJOSM>

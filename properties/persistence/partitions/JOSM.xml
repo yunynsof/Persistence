@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:ResponseJOSM xmlns:tns="http://www.tigo.com.hn/ResponseJOSM"
+	xmlns:tns8="http://www.tigo.com.hn/persistence/partitioing/V1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tigo.com.hn/ResponseJOSM ResponseJOSM.xsd ">
+	<tns:Configurations>
+		<tns:configExpiration>3600000</tns:configExpiration>
+		<tns:partitioningType>
+			<tns8:timeOut>3600000</tns8:timeOut>
+			<tns8:mod>2</tns8:mod>
+			<tns8:complexPartitioning>
+				<tns8:partition>
+					<tns8:name>JOSM_DS</tns8:name>
+					<tns8:position>0</tns8:position>
+				</tns8:partition>
+			</tns8:complexPartitioning>
+		</tns:partitioningType>
+	</tns:Configurations>
+	<tns:status>
+		<tns:status>0</tns:status>
+		<tns:code>0</tns:code>
+	</tns:status>
+</tns:ResponseJOSM>
