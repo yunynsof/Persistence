@@ -148,7 +148,7 @@
 		</pluginManagement>
 	</build>
 
-	<distributionManagement>
+<!-- 	<distributionManagement>
 		<repository>
 			<id>archiva.internal</id>
 			<name>Internal Release Repository</name>
@@ -161,7 +161,7 @@
 			<id>Development Repository</id>
 			<url>http://${url.archiva}:8081/archiva/repository/internal</url>
 		</repository>
-	</repositories>
+	</repositories> -->
 
 	<dependencies>
 		<dependency>
@@ -188,7 +188,7 @@
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
-	
+		
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
@@ -205,9 +205,9 @@
 			<version>1.0.0</version>
 		</dependency>
 		<dependency>
-    <groupId>com.oracle</groupId>
-    <artifactId>ojdbc14</artifactId>
-    <version>10.2.0.3.0</version>
+  <groupId>com.oracle.database.jdbc</groupId>
+  <artifactId>ojdbc6</artifactId>
+  <version>11.2.0.4</version>
 </dependency>
 	</dependencies>
 
